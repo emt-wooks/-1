@@ -28,7 +28,7 @@ jobs:
       - name: Unzip Android project
         run: |
           mkdir project
-                    unzip MountainRescueTouchLog_project_v4.zip -d project
+                    unzip MountainRescueTouchLog_project_v5.zip -d project
 
       - name: Build APK
         run: gradle -p project assembleDebug --stacktrace
